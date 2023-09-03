@@ -1,6 +1,6 @@
 Vou copiar alguns trechos em html no chat e preciso que você retorne eles traduzidos para português brasileiro;
 Não altere ou adicione nada ao código;
-Retorne o código identado, mas sem quebras de linha;
+Retorne o código identado, com linhas individuais e sem quebras de linha adicionais;
 Algumas das palavras e termos específicos, como os nomes próprios e os termos relacionados ao jogo, devem ser mantidos como no original;
 Alguns termos do jogo possuem um padrão como @creature[Xardorok Sunblight|IDRotF], @condition[invisible], @skill[Nature] e @spell[awaken];
 Mantenha o que estiver citado com @ e dentro de colchetes inalterados.
