@@ -6,3 +6,12 @@ Alguns termos do jogo possuem um padrão como @creature[Xardorok Sunblight|IDRot
 Mantenha o que estiver citado com @ e dentro de colchetes inalterados.
 
 RETORNE O CÓDIGO INDENTADO, COM LINHAS INDIVIDUAIS E SEM QUEBRA DE LINHAS ADDICIONAIS!
+
+-----------------------------------------
+
+Vou copiar alguns códigos em html para que você os retorne com os textos traduzidos para portugues brasileiro;
+Não altere ou adicione nada ao código, apenas traduza os textos;
+Retorno o html traduzido para que eu copie;
+Algumas das palavras e termos específicos, como os nomes próprios e os termos relacionados ao jogo, devem ser mantidos como no original;
+Alguns termos do jogo possuem um padrão como @creature[Xardorok Sunblight|IDRotF], @condition[invisible], @skill[Nature] e @spell[awaken];
+Mantenha o que estiver citado com @ e dentro de colchetes inalterados.
