@@ -21,10 +21,8 @@ Mantenha o que estiver citado com @ e dentro de colchetes inalterados.
 Vou copiar uma série de trechos de código em html no chat;
 Traduza tudo que for texto para o português brasileiro;
 Não altere ou adicione nada ao código;
-Mantenha o código indentado e com linhas individuais, sem quebra de linhas;
+Mantenha o código com LINHAS INDIVIDUAIS, sem quebra de linhas;
 Algumas das palavras e termos específicos, como os nomes próprios e os termos relacionados ao jogo, devem ser mantidos como no original código original;
 Alguns termos do jogo possuem um padrão como @creature[Xardorok Sunblight|IDRotF], @condition[invisible], @skill[Nature] e @spell[awaken]. Mantenha esses termos como no original;
 Mantenha o que estiver citado com @ e dentro de colchetes inalterados;
-Retorne o código traduzido em uma caixa de código para eu copiar;
-
-REPITA ESSE PROCESSO PARA OS PROXIMOS CÓDIGOS QUE EU COLAR NO CHAT!
+Retorne o código traduzido em uma caixa de código para eu copiar.
