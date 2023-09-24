@@ -16,15 +16,37 @@ Algumas das palavras e termos específicos, como os nomes próprios e os termos 
 Alguns termos do jogo possuem um padrão como @creature[Xardorok Sunblight|IDRotF], @condition[invisible], @skill[Nature] e @spell[awaken];
 Mantenha o que estiver citado com @ e dentro de colchetes inalterados.
 
+Identifique as partes do código que contém @ e [ ];
+MANTENHA AS PARTES DO CÓDIGO QUE CONTÉM @ E [ ] EM INGLÊS;
+
 ----------------------------------------- Bard
 
-Vou copiar uma série de trechos de código em html no chat;
-Traduza tudo que for texto para o português brasileiro;
-Não altere ou adicione nada ao código;
+Retorne o html que eu copiar traduzido para pt-br, com excessão das partes que contém @ e [ ];
+
+Esse html são partes de um conteúdo de D&D 5e;
+Palavras e termos específicos do jogo, como nomes próprios, devem ser mantidos como no código original;
+
 Mantenha o código com LINHAS INDIVIDUAIS, sem quebra de linhas;
+Retorne o código em uma caixa de código para eu copiar.
 
-Algumas das palavras e termos específicos, como os nomes próprios e os termos relacionados ao jogo, devem ser mantidos como no original código original;
-Alguns termos do jogo possuem um padrão como @creature[Xardorok Sunblight|IDRotF], @condition[invisible], @skill[Nature] e @spell[awaken], Mantenha esses termos como no original;
+--------------------------------------------
 
-Mantenha o que estiver citado com @ e dentro de colchetes inalterados;
-Retorne o código traduzido em uma caixa de código para eu copiar.
+Vou copiar alguns códigos em html no chat
+
+Identifique as partes do código que contém @ e [ ]
+
+Traduza os textos do código para pt-br
+
+Depois, substitua as partes identificadas
+
+----------------------------------------------------
+
+Vou copiar alguns códigos em html no chat
+
+Traduza os textos do código para pt-br
+
+Identifique as partes do código que contém @ e [ ]
+
+Mantenha o código com linhas individuais, sem quebra de linhas;
+
+Retorne o código em uma caixa para copiar
