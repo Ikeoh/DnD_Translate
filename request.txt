@@ -1,3 +1,33 @@
+Você vai ler o código html que irei colar no chat
+
+Você vai identificar que o código pode conter termos com o símbolo @
+Essas termos possuem um padrão que segue @nome_da_termo[conteúdo_da_termo]
+É possível que os termos estejam entre (), caso ocorra, considereos da mesma forma
+
+Preserve os termos e seu conteúdo em inglês
+Preserve o texto dentro de [] em inglês, ou seja, eles naõ devem ser traduzidos
+
+Traduza os textos do código para pt-br
+
+Retorne o código sem quebra de linhas
+Retorne o código em uma caixa para que eu copie
+
+--------------------------------------------------
+Você vai ler o código html que irei colar no chat
+
+Você vai identificar que o código pode conter trechos com o símbolo @ e [ ]
+Essas trechos possuem um padrão que segue @alguma_chave[atributo_da_chave]
+É possível que os trechos estejam entre ( ), caso ocorra, considereos da mesma forma
+
+A chave e o atributo da chave NÃO DEVE SER TRADUZIDO
+
+Traduza os demais textos do código para pt-br
+
+Retorne o código SEM QUEBRA DE LINHAS e INDENTADO
+Retorne o código EM UMA CAIXA para que eu COPIE
+
+-------------------------------------------------------
+
 Vou copiar alguns trechos em html no chat e preciso que você retorne eles traduzidos para português brasileiro;
 Não altere ou adicione nada ao código;
 
@@ -83,7 +113,7 @@ Retorne o código em uma caixa para que eu copie, indentado e sem quebra de linh
 
 OBS: Nosso objetivo é que os textos do código sejam traduzidos, mas, que as partes identificadas com @ e [] sejam preservadas em inglês.
 
-----------------------------------------------
+----------------------------------------------GPT-OK
 
 Você vai ler o código que irei colar no chat
 
@@ -93,9 +123,75 @@ Você vai perceber que o código pode conter tags identificadas pelo símbolo @
 Essas tags possuem um padrão que segue @nome_da_tag[conteúdo_da_tag]
 É possível que as tags estejam entre (), preserve-as do mesmo jeito
 
-Preserve as tags e seus conteúdos em inglês
-preserve as tags e seu conteúdo inalteradas
+Preserve as tags e seus conteúdo em inglês
+Preserve as tags e seu conteúdo inalteradas
 
 Traduza os textos do código para pt-br
 
 Retorne o código em uma caixa para que eu copie
+
+-----------------------------------------------------------------
+
+Você vai ler o código que irei colar no chat
+
+Mantenha o código sem quebra de linhas
+
+Você vai perceber que o código pode conter tags identificadas pelo símbolo @
+Essas tags possuem um padrão que segue @nome_da_tag[conteúdo_da_tag]
+É possível que as tags estejam entre (), preserve-as do mesmo jeito
+
+Preserve as tags e seus conteúdo em inglês
+Preserve as tags e seu conteúdo inalteradas
+Preserve o texto dentro de [] em inglês
+
+Traduza os textos do código para pt-br
+
+Retorne o código em uma caixa para que eu copie
+
+-----------------------------------------------------------
+
+Você vai ler o código html que irei colar no chat
+
+Mantenha o código sem quebra de linhas
+
+Você vai identificar que o código pode conter termos com o símbolo @
+Essas termos possuem um padrão que segue @nome_da_termo[conteúdo_da_termo]
+É possível que os termos estejam entre (), caso ocorra, considereos da mesma forma
+
+Preserve os termos e seu conteúdo em inglês
+Preserve o texto dentro de [] em inglês, ou seja, eles naõ devem ser traduzidos
+
+Traduza os textos do código para pt-br
+
+Retorne o código em uma caixa para que eu copie
+------------------------------------------------------------------ ESSE AQUI OK
+
+Você vai ler o código html que irei colar no chat
+
+Você vai identificar que o código pode conter termos com o símbolo @
+Essas termos possuem um padrão que segue @nome_da_termo[conteúdo_da_termo]
+É possível que os termos estejam entre (), caso ocorra, considereos da mesma forma
+
+Preserve os termos e seu conteúdo em inglês
+Preserve o texto dentro de [] em inglês, ou seja, eles naõ devem ser traduzidos
+
+Traduza os textos do código para pt-br
+
+Retorne o código sem quebra de linhas
+Retorne o código em uma caixa para que eu copie
+
+--------------------------------------------------------------------------
+
+Você vai ler o código html que irei colar no chat
+
+Você vai identificar que o código pode conter termos/nomenclaturas com o símbolo @
+Esses termos/nomenclaturas possuem um padrão que segue @nome_da_termo[conteúdo_da_termo]
+É possível que os termos estejam entre (), caso ocorra, considereos da mesma forma
+
+Preserve o nome dos termos/nomenclaturas e seu conteúdo em inglês, NÃO altere-os
+Preserve o texto dentro de [] em inglês, ou seja, eles NÃO devem ser traduzidos
+
+Traduza os textos do código para pt-br, preservando os termos/nomenclaturas conforme as intruções acima
+
+Retorne o código sem quebra de linhas
+Retorne o código html em uma caixa para que eu copie
