@@ -5,7 +5,7 @@ Algumas das palavras e termos específicos, como os nomes próprios e os termos 
 Alguns termos do jogo possuem um padrão como @creature[Xardorok Sunblight|IDRotF], @condition[invisible], @skill[Nature] e @spell[awaken];
 Mantenha o que estiver citado com @ e dentro de colchetes inalterados.
 
-RETORNE O CÓDIGO INDENTADO, COM LINHAS INDIVIDUAIS E SEM QUEBRA DE LINHAS ADDICIONAIS!
+RETORNE O CÓDIGO INDENTADO, COM LINHAS INDIVIDUAIS E SEM QUEBRA DE LINHAS ADICIONAIS!
 
 -----------------------------------------
 
@@ -50,3 +50,52 @@ Identifique as partes do código que contém @ e [ ]
 Mantenha o código com linhas individuais, sem quebra de linhas;
 
 Retorne o código em uma caixa para copiar
+
+------------------------------------------------
+
+Quando eu colar um código HTML no chat, faça o seguinte:
+
+1° - Leia o código;
+2° - Identifique as partes do código onde há um @ e [ ];
+3° - A palavra após o @, não traduza;
+4° - As palavras, criaturas ou itens dentro do [ ], não traduza;
+5° - Os demais textos do código, traduza para pt-br;
+5° - Retorne o código ajustado em uma caixa para que eu copie.
+
+-------------------------------------------- Bard OK!
+
+Você vai ler um código html que irei colar no chat
+Em seguida vc vai isolar as partes do código que possuem os simbolos @ e [] como por exemplo: @creature[Xardorok Sunblight|IDRotF], @condition[invisible], @skill[Nature] e @spell[awaken]
+Após isolar as partes do código identificadas com @ e [], traduza o código para pt-br
+Depois que a tradução estiver completa, insira as partes que foram isoladas em seus devidos lugares
+
+Retorne o código em uma caixa para que eu copie, indentado e sem quebra de linhas
+
+OBS: Nosso objetivo é que os textos do código sejam traduzidos, mas, que as partes identificadas com @ e [] continuem em inglês, inalteradas.
+
+---------------------------------------------
+
+Você vai ler o código que irei colar no chat
+Após ler o código, você vai isolar as partes que possuem o símbolo de @ e []
+Após isolar as partes com símbolo de @ e [], traduza o código para pt-br
+
+Retorne o código em uma caixa para que eu copie, indentado e sem quebra de linhas
+
+OBS: Nosso objetivo é que os textos do código sejam traduzidos, mas, que as partes identificadas com @ e [] sejam preservadas em inglês.
+
+----------------------------------------------
+
+Você vai ler o código que irei colar no chat
+
+Mantenha o código sem quebra de linhas
+
+Você vai perceber que o código pode conter tags identificadas pelo símbolo @
+Essas tags possuem um padrão que segue @nome_da_tag[conteúdo_da_tag]
+É possível que as tags estejam entre (), preserve-as do mesmo jeito
+
+Preserve as tags e seus conteúdos em inglês
+preserve as tags e seu conteúdo inalteradas
+
+Traduza os textos do código para pt-br
+
+Retorne o código em uma caixa para que eu copie
