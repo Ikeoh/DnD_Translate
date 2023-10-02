@@ -1,3 +1,33 @@
+-------------------------------------------------- v1 - OK
+Você vai ler o código html que irei colar no chat
+
+Você vai identificar que o código pode conter trechos com o símbolo @ e [ ]
+Essas trechos possuem um padrão que segue @uma_chave[atributo_da_chave]
+É possível que os trechos estejam entre ( ), caso ocorra, considere-os da mesma forma
+
+A chave e o atributo da chave NÃO DEVE SER TRADUZIDO
+
+Traduza os demais textos do código para pt-br
+
+Retorne o código SEM QUEBRA DE LINHAS e INDENTADO
+Retorne o código EM UMA CAIXA para que eu COPIE
+
+-------------------------------------------------- v2
+Você vai ler o código html que irei colar no chat
+
+Você vai identificar que o código pode conter trechos com o símbolo @ e [ ]
+Essas trechos possuem um padrão que segue @uma_chave[atributo_da_chave]
+É possível que os trechos estejam entre ( ), caso ocorra, considere-os da mesma forma
+
+A chave e o atributo da chave NÃO DEVEM SER TRADUZIDOS, ou seja, devem ser mantidos intactos
+
+Traduza os demais textos do código para pt-br
+
+Retorne o código SEM QUEBRA DE LINHAS e INDENTADO
+Retorne o código EM UMA CAIXA para que eu COPIE
+
+--------------------------------------------------
+
 Você vai ler o código html que irei colar no chat
 
 Você vai identificar que o código pode conter termos com o símbolo @
@@ -11,20 +41,6 @@ Traduza os textos do código para pt-br
 
 Retorne o código sem quebra de linhas
 Retorne o código em uma caixa para que eu copie
-
---------------------------------------------------
-Você vai ler o código html que irei colar no chat
-
-Você vai identificar que o código pode conter trechos com o símbolo @ e [ ]
-Essas trechos possuem um padrão que segue @alguma_chave[atributo_da_chave]
-É possível que os trechos estejam entre ( ), caso ocorra, considereos da mesma forma
-
-A chave e o atributo da chave NÃO DEVE SER TRADUZIDO
-
-Traduza os demais textos do código para pt-br
-
-Retorne o código SEM QUEBRA DE LINHAS e INDENTADO
-Retorne o código EM UMA CAIXA para que eu COPIE
 
 -------------------------------------------------------
 
