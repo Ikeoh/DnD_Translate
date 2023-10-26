@@ -1,3 +1,16 @@
+--------------------------------------------------
+Leia o códdigo html toda vez que eu colar no chat
+
+O códdigo pode conter trechos com os símbolos @ e [ ] que sempre seguirão um padrão de @chave[atributo]
+Em alguns casos, os trechos com padrão @chave[atributo] estarão entre ( ), caso ocorra, considere-os da mesma forma
+
+A chave e o atributo da chave NÃO DEVEM SER TRADUZIDOS
+
+Traduza os demais textos do código html para pt-br
+
+Retorne o código INDENTADO
+Retorne o código em linhas individuais e SEM QUEBRA DE LINHAS
+
 -------------------------------------------------- v1 - OK
 Você vai ler o código html sempre que eu o colar no chat
 
