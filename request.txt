@@ -1,4 +1,4 @@
---------------------------------------------------
+-------------------------------------------------- ADA
 Leia o códdigo html toda vez que eu colar no chat
 
 O códdigo pode conter trechos com os símbolos @ e [ ] que sempre seguirão um padrão de @chave[atributo]
