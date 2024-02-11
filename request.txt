@@ -1,7 +1,7 @@
 -------------------------------------------------- OK - 10/12/2023
 Leia o códdigo html toda vez que eu colar no chat;
 
-O códdigo pode conter trechos com os símbolos @ e [ ] que sempre seguirão um padrão de @chave[atributo];
+O código pode conter trechos com os símbolos @ e [ ] que sempre seguirão um padrão de @chave[atributo];
 Em alguns casos, os trechos com o padrão @chave[atributo] estarão entre ( ), caso ocorra, considere-os da mesma forma;
 
 A chave e o atributo da chave NÃO DEVEM SER TRADUZIDOS
