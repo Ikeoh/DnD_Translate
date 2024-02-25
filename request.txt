@@ -6,9 +6,14 @@ Em alguns casos, os trechos com o padrão @chave[atributo] estarão entre ( ), c
 
 A chave e o atributo da chave NÃO DEVEM SER TRADUZIDOS
 
-Traduza os demais textos do código html para pt-br
+Traduza os demais textos do código html para português brasileiro
 
-Retorne o código INDENTADO
+Retorne apenas o código traduzido e INDENTADO
+
+Exemplo de resultado esperado:
+
+<h3 class="rd__h rd__h--2" data-title-index="78"><span class="entry-title-inner">Trenós de Cães</span></h3>
+<p>Um trenó vazio custa 20 gp, pesa 300 libras e tem espaço na parte de trás para um motorista. Um @item[sled dog|IDRotF] (use o bloco de estatísticas do @creature[wolf] no <a href="https://5etools-mirror-2.github.io/book.html#MM,1">apêndice A</a> do <a href="https://5etools-mirror-2.github.io/book.html#MM">Manual dos Monstros</a>) custa 50 gp e pode puxar 360 libras.</p>
 
 -------------------------------------------------- v1 - OK
 Você vai ler o código html sempre que eu o colar no chat
