@@ -141,7 +141,7 @@
                 </div>
             </div>
             <p>Quando o lago não está congelado, este barco de quilha transporta pessoas e cargas para as cidades de Caer-Dineval e Caer-Konig por uma taxa modesta. Mas o barco e grande parte do porto de Easthaven estão presos no gelo, e o Orador Waylen declarou que o serviço de balsa deve cessar até que o gelo derreta - o que, dado o temperamento de Auril, parece improvável que aconteça em breve. O proprietário e operador tiefling da balsa, Scython, passa seu tempo ocioso no Wet Trout (descrito abaixo). Na ausência de Scython, a balsa se tornou uma base de operações para um @creature[duergar mind master|MTF] (veja @UUID[JournalEntry.P7d2UEime7l0L2VE.JournalEntryPage.0000000000000021]{apêndice C}) chamado Durth Sunblight. Ele e outros três @creature[duergar] chamados Klaska, Ossyl e Zublorr estão usando a cabine de popa da balsa como um covil, mas apenas Durth está presente quando os personagens chegam pela primeira vez à balsa. Os outros duergar estão procurando chardalyn em Easthaven.</p>
-            <p>Os duergar são cautelosos o suficiente para se tornarem @condition[invisíveis] enquanto se movem pela cidade e pelos cais, mas não são inteligentes o suficiente para cobrir os rastros que deixam na neve. Personagens que procuram por rastros no cais coberto de neve e obtêm sucesso em um teste de Sabedoria DC 10 (@skill[Survival]) podem discernir [[/r 1d4]] conjuntos distintos de pegadas de botas anãs levando para e da balsa. Essas pegadas foram feitas nas últimas 24 horas.</p>
+            <p>Os duergar são cautelosos o suficiente para se tornarem @condition[invisible] enquanto se movem pela cidade e pelos cais, mas não são inteligentes o suficiente para cobrir os rastros que deixam na neve. Personagens que procuram por rastros no cais coberto de neve e obtêm sucesso em um teste de Sabedoria DC 10 (@skill[Survival]) podem discernir [[/r 1d4]] conjuntos distintos de pegadas de botas anãs levando para e da balsa. Essas pegadas foram feitas nas últimas 24 horas.</p>
 
             <div class="float-clear">
                 <p></p>
@@ -213,7 +213,7 @@
 
                 <ul class="rd__list">
                     <li class="rd__li ">O castelo em Caer-Dineval se tornou uma base para um culto que adora o diabo.</li>
-                    <li class="rd__li ">Anões de pele cinza têm rondado as ruas de Easthaven, Caer-Dineval e Caer-Konig enquanto @condition[invisíveis]. Suas intenções não são boas. Eles se escondem a bordo da balsa da cidade (veja "@UUID[.0000000000000007#easthaven-ferry]{Balsa de Easthaven}" acima) e nas ruínas de Dinev's Rest (veja "@UUID[.0000000000000004#dinevs-rest]{Descanso de Dinev}").</li>
+                    <li class="rd__li ">Anões de pele cinza têm rondado as ruas de Easthaven, Caer-Dineval e Caer-Konig enquanto @condition[invisible]. Suas intenções não são boas. Eles se escondem a bordo da balsa da cidade (veja "@UUID[.0000000000000007#easthaven-ferry]{Balsa de Easthaven}" acima) e nas ruínas de Dinev's Rest (veja "@UUID[.0000000000000004#dinevs-rest]{Descanso de Dinev}").</li>
                     <li class="rd__li ">Um caldeirão mágico está escondido em algumas cavernas congeladas à beira do lago. O caldeirão é guardado por uma bruxa malvada chamada Maud Chiselbone e pode conjurar o suficiente guisado para alimentar uma cidade faminta indefinidamente (veja "Trabalho e Problemas" abaixo).</li>
                 </ul>
                 <p>A Dama Branca não se lembra dos detalhes de sua própria morte ou do destino de seu amor perdido. Uma vez que seu espírito parte, a geada nas janelas se dissipa.</p>
@@ -469,72 +469,78 @@
     </div>
     <hr class="rd__hr rd__hr--section">
     <div class="rd__b  rd__b--0">
-        <h1 class="rd__h rd__h--0" data-title-index="312"><span class="entry-title-inner">Town Hall Capers</span></h1>
-        <p>Easthaven's Town Hall is the setting for two possible capers, one involving the theft of the @item[cauldron of plenty|IDRotF] and the other involving the theft of a ship's figurehead made of chardalyn. These capers occur under the following conditions:</p>
+        <h1 class="rd__h rd__h--0" data-title-index="312"><span class="entry-title-inner">Confusões na Prefeitura</span></h1>
+        <p>O Salão da Prefeitura de Easthaven é o cenário para dois possíveis incidentes, um envolvendo o roubo do @item[cauldron of plenty|IDRotF] e o outro envolvendo o roubo de uma figura de proa de navio feita de chardalyn. Esses incidentes ocorrem nas seguintes condições:</p>
         <ul class="rd__list">
-            <li class="rd__li ">If the characters try to sell the @item[cauldron of plenty|IDRotF] in Easthaven, run "The Cauldron Caper."</li>
-            <li class="rd__li ">If the characters haven't dealt with the duergar threat aboard Easthaven's ferry and aren't likely to do so, run "The Chardalyn Caper."</li>
+            <li class="rd__li ">Se os personagens tentarem vender o @item[cauldron of plenty|IDRotF] em Easthaven, inicie "O Incidente do Caldeirão".</li>
+            <li class="rd__li ">Se os personagens não lidaram com a ameaça dos duergars a bordo da balsa de Easthaven e não são propensos a fazê-lo, inicie "O Incidente do Chardalyn".</li>
         </ul>
-        <p>You can run one caper or the other, or use both of them at different times in the adventure.</p>
+        <p>Você pode realizar um incidente ou outro, ou usar ambos em momentos diferentes da aventura.</p>
+
         <div class="rd__b  rd__b--1">
-            <h2 class="rd__h rd__h--1" data-title-index="313"><span class="entry-title-inner">The Cauldron Caper</span></h2>
-            <p>If the characters bring the @item[cauldron of plenty|IDRotF] to Easthaven and its properties become known to Captain Arlaggath or other townsfolk, word gets around that the characters possess a magic item that could help feed the hungry in Ten-Towns. This news quickly reaches Speaker Danneth Waylen, who invites the characters to a private meeting at the Town Hall. During this meeting, Danneth tries to buy the cauldron, offering five 500 gp gemstones for it. No one else in Easthaven will pay more for it or bid against him.</p>
-            <p>Any character who barters with Danneth and succeeds on a DC 12 Charisma (@skill[Persuasion]) check can convince him to sweeten the deal, in which case he offers up to ten 500 gp gemstones. If the characters accept his offer, Danneth needs 48 hours to call in some debts and acquire the gems, during which time he insists that the cauldron remain in Easthaven's Town Hall, under guard in @UUID[.0000000000000007#t17.-jailers-room]{area T17}. The characters can either let four members of town militia (@creature[Tribal Warrior||tribal warriors]) watch over the cauldron, or they can protect it themselves. Danneth is satisfied either way.</p>
+            <h2 class="rd__h rd__h--1" data-title-index="313"><span class="entry-title-inner">O Incidente do Caldeirão</span></h2>
+            <p>Se os personagens trouxerem o @item[cauldron of plenty|IDRotF] para Easthaven e suas propriedades se tornarem conhecidas do Capitão Arlaggath ou de outros habitantes da cidade, espalha-se a notícia de que os personagens possuem um item mágico que poderia ajudar a alimentar os famintos em Dez Cidades. Essa notícia rapidamente chega ao Conferencista Danneth Waylen, que convida os personagens para uma reunião privada no Salão da Prefeitura. Durante esta reunião, Danneth tenta comprar o caldeirão, oferecendo cinco gemas de 500 gp por ele. Ninguém mais em Easthaven pagará mais por isso ou fará uma oferta contra ele.</p>
+            <p>Qualquer personagem que barganhe com Danneth e tenha sucesso em um teste de Carisma DC 12 (@skill[Persuasion]) pode convencê-lo a melhorar a oferta, caso em que ele oferece até dez gemas de 500 gp. Se os personagens aceitarem sua oferta, Danneth precisa de 48 horas para cobrar algumas dívidas e adquirir as gemas, durante as quais ele insiste que o caldeirão permaneça no Salão da Prefeitura de Easthaven, sob guarda em @UUID[.0000000000000007#t17.-jailers-room]{área T17}. Os personagens podem deixar quatro membros da milícia da cidade (@creature[Tribal Warrior||tribal warriors]) cuidarem do caldeirão, ou podem protegê-lo eles mesmos. Danneth fica satisfeito de qualquer maneira.</p>
+
             <div class="float-clear">
                 <p></p>
             </div>
             <div>
                 <div class="rd__wrp-image relative">
-                    <img class="rd__image" src="https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/IDRotF/054-01-027.danneth.webp" title="Speaker Danneth Waylen" alt="Speaker Danneth Waylen">
+                    <img class="rd__image" src="https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/IDRotF/054-01-027.danneth.webp" title="Conferencista Danneth Waylen" alt="Orador Danneth Waylen">
                 </div>
                 <div class="rd__image-title">
                     <div class="rd__image-title-inner">
-                        <p>Speaker Danneth Waylen</p>
+                        <p>Orador Danneth Waylen</p>
                     </div>
                 </div>
             </div>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="314"><span class="entry-title-inner">Zhentarim Thieves</span></h3>
-                <p>News of the cauldron reaches Speaker Naerth Maxildanarr of Targos within a day, thanks to a Zhentarim @creature[spy] named Prudence Tarkwold, who works as a clerk in Easthaven's Town Hall and owns a small cottage nearby (where she keeps a @creature[flying snake] that serves her as a messenger). After Prudence notifies him of the cauldron, Naerth sets into motion a plan to steal it. He dispatches three human @creature[Thug||thugs] in cold weather clothing to meet with Prudence at the Town Hall as night falls. These thugs bring with them a domesticated @creature[axe beak], which they tie to a wooden post outside the Town Hall's north entrance.</p>
-                <p>Barring the characters' intervention, the Zhents corner Speaker Waylen in his office (@UUID[.0000000000000007#t3.-speakers-office]{area T3}) and use him as a hostage to force the guards watching the cauldron to drop their weapons and surrender without a fight. After locking Speaker Waylen and the guards in the jail (@UUID[.0000000000000007#t18.-jail]{area T18}), the Zhents remove the cauldron from the Town Hall, lash it to the axe beak with rope, and toss the keys to the jail cells into a snowbank. The axe beak is strong enough to drag the cauldron through the snow behind it as the Zhents lead it back to Targos. The Zhents don't stop until the cauldron is delivered to Speaker Naerth Maxildanarr at the Luskan Arms (see "@UUID[.0000000000000010#the-luskan-arms]{the Luskan Arms}"). Any tracks they make in the snow are obliterated after [[/r 1d4]] hours by blowing wind. Although they are lawful evil, the Zhents have strict orders not to kill anyone. Enemies they reduce to 0 hit points are knocked @condition[unconscious] rather than slain.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="314"><span class="entry-title-inner">Ladrões Zhentarim</span></h3>
+                <p>A notícia do caldeirão chega ao Conferencista Naerth Maxildanarr de Targos em um dia, graças a um @creature[spy] Zhentarim chamado Prudence Tarkwold, que trabalha como escrevente no Salão da Prefeitura de Easthaven e possui uma pequena casa nas proximidades (onde mantém uma @creature[flying snake] que lhe serve como mensageira). Depois que Prudence o notifica sobre o caldeirão, Naerth coloca em movimento um plano para roubá-lo. Ele envia três @creature[Thug||thugs] humanos, vestidos com roupas de frio, para encontrar-se com Prudence no Salão da Prefeitura ao anoitecer. Esses bandidos trazem consigo um @creature[axe beak] domesticado, que amarram a um poste de madeira fora da entrada norte do Salão da Prefeitura.</p>
+                <p>Exceto se os personagens intervierem, os Zhents encurralam o Conferencista Waylen em seu escritório (@UUID[.0000000000000007#t3.-speakers-office]{área T3}) e o usam como refém para forçar os guardas que estão vigiando o caldeirão a largarem suas armas e se renderem sem lutar. Após trancar o Conferencista Waylen e os guardas na cadeia (@UUID[.0000000000000007#t18.-jail]{área T18}), os Zhents retiram o caldeirão do Salão da Prefeitura, o amarram ao axe beak com corda e jogam as chaves das celas da cadeia em um monte de neve. O axe beak é forte o suficiente para arrastar o caldeirão pela neve enquanto os Zhents o conduzem de volta para Targos. Os Zhents não param até que o caldeirão seja entregue ao Conferencista Naerth Maxildanarr no Luskan Arms (veja "@UUID[.0000000000000010#the-luskan-arms]{the Luskan Arms}"). Qualquer rastro que deixem na neve é oblitérado após [[/r 1d4]] horas pelo vento soprando. Embora sejam do mal legal, os Zhents têm ordens estritas para não matar ninguém. Inimigos que reduzem a 0 pontos de vida são nocauteados @condition[unconscious] em vez de mortos.</p>
             </div>
+
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="315"><span class="entry-title-inner">Development</span></h3>
-                <p>Characters at the Town Hall can attempt to thwart the robbery. If no characters are present during the robbery, the theft becomes apparent when the characters return to the Town Hall to close the deal with Speaker Waylen. If they arrive in the early hours of the morning, they hear loud banging coming from the dungeon, where the speaker and his guards are locked up. Otherwise, they arrive to find Captain Arlaggath and a small retinue of town guards trying to break open the cell doors.</p>
-                <p>Speaker Waylen is stung by Prudence's betrayal, as she worked closely with him for nearly three years. He had no idea she worked for the Zhentarim. If the characters don't know where the Zhents took the cauldron, Waylen recalls that Prudence offhandedly mentioned having family in Targos. (Her "family" is the Zhentarim.) He suggests they search for the cauldron there. Characters can find Prudence Tarkwold at the Luskan Arms, where she has a private room to herself. As for the cauldron, Speaker Maxildanarr has it and won't give it up without a fight.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="315"><span class="entry-title-inner">Desenvolvimento</span></h3>
+                <p>Personagens no Salão da Prefeitura podem tentar frustrar o roubo. Se nenhum personagem estiver presente durante o roubo, o furto se torna aparente quando os personagens retornam ao Salão da Prefeitura para fechar o acordo com o Conferencista Waylen. Se eles chegarem nas primeiras horas da manhã, ouvirão batidas altas vindo do calabouço, onde o conferencista e seus guardas estão trancados. Caso contrário, eles chegarão para encontrar o Capitão Arlaggath e um pequeno séquito de guardas da cidade tentando arrombar as portas das celas.</p>
+                <p>O Conferencista Waylen é ferido pela traição de Prudence, pois ela trabalhou de perto com ele por quase três anos. Ele não tinha ideia de que ela trabalhava para os Zhentarim. Se os personagens não souberem para onde os Zhents levaram o caldeirão, Waylen lembra que Prudence mencionou casualmente ter família em Targos. (Sua "família" são os Zhentarim.) Ele sugere que busquem o caldeirão lá. Os personagens podem encontrar Prudence Tarkwold no Luskan Arms, onde ela tem um quarto privativo para si mesma. Quanto ao caldeirão, o Conferencista Maxildanarr o possui e não o entregará sem lutar.</p>
             </div>
+
         </div>
         <div class="rd__b  rd__b--1">
-            <h2 class="rd__h rd__h--1" data-title-index="316"><span class="entry-title-inner">The Chardalyn Caper</span></h2>
-            <p>The duergar hiding aboard the Easthaven ferry attack the Town Hall in the dead of night, determined to steal pieces of a ship's figurehead made of chardalyn. This theft occurs while most townsfolk, including Speaker Waylen, are asleep in their homes. For more information about the duergar and what they know, see the "@UUID[.0000000000000007#easthaven-ferry]{Easthaven Ferry}" section.</p>
+            <h2 class="rd__h rd__h--1" data-title-index="316"><span class="entry-title-inner">O Incidente do Chardalyn</span></h2>
+            <p>Os duergars escondidos a bordo da balsa de Easthaven atacam o Salão da Prefeitura no meio da noite, determinados a roubar pedaços de uma figura de proa de navio feita de chardalyn. Esse roubo ocorre enquanto a maioria dos habitantes da cidade, incluindo o Conferencista Waylen, está dormindo em suas casas. Para mais informações sobre os duergars e o que eles sabem, veja a seção "@UUID[.0000000000000007#easthaven-ferry]{Balsa de Easthaven}".</p>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="317"><span class="entry-title-inner">Duergar Thieves</span></h3>
-                <p>If he's still alive, Durth Sunblight, a @creature[duergar mind master|MTF] (see @UUID[JournalEntry.P7d2UEime7l0L2VE.JournalEntryPage.0000000000000021]{appendix C}), leads three @creature[duergar] named Klaska, Ossyl, and Zublorr to the Town Hall under the cover of night, making their way inside through the north entrance. Barring the characters' intervention, the duergar use their weapons to shatter the chardalyn figurehead in @UUID[.0000000000000007#t6.-chardalyn-figurehead]{area T6}. The guards in @UUID[.0000000000000007#t17.-jailers-room]{area T17} interrupt the duergar but are no match for them. After killing the guards with their war picks, the duergar finish breaking apart the figurehead.</p>
-                <p>Each duergar carries one sack that can hold up to five 20-pound fragments of chardalyn. After filling their sacks, the duergar exit the Town Hall and travel to their hidden fortress in the mountains (described in @UUID[JournalEntry.P7d2UEime7l0L2VE.JournalEntryPage.0000000000000013]{chapter 3}). Any tracks left by the duergar are obliterated after [[/r 1d4]] hours by blowing wind.</p>
-                <p>If too much time has passed to track the duergar, the characters have no way to know where they went—just as well, given the perils of the duergar fortress. A search of the Easthaven ferry yields no clues, as the duergar took all their belongings (including Durth's map) with them.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="317"><span class="entry-title-inner">Ladrões Duergars</span></h3>
+                <p>Se ele ainda estiver vivo, Durth Sunblight, um @creature[duergar mind master|MTF] (veja @UUID[JournalEntry.P7d2UEime7l0L2VE.JournalEntryPage.0000000000000021]{apêndice C}), lidera três duergars chamados Klaska, Ossyl e Zublorr até o Salão da Prefeitura sob a cobertura da noite, entrando pela entrada norte. Exceto se os personagens intervierem, os duergars usam suas armas para quebrar a figura de proa de chardalyn em @UUID[.0000000000000007#t6.-chardalyn-figurehead]{área T6}. Os guardas em @UUID[.0000000000000007#t17.-jailers-room]{área T17} interrompem os duergars, mas não são páreo para eles. Após matar os guardas com suas picaretas de guerra, os duergars terminam de quebrar a figura de proa.</p>
+                <p>Cada duergar carrega um saco que pode conter até cinco fragmentos de chardalyn de 20 libras. Depois de encherem seus sacos, os duergars saem do Salão da Prefeitura e viajam para sua fortaleza escondida nas montanhas (descrita em @UUID[JournalEntry.P7d2UEime7l0L2VE.JournalEntryPage.0000000000000013]{capítulo 3}). Qualquer rastro deixado pelos duergars é obliterado após [[/r 1d4]] horas pelo vento soprando.</p>
+                <p>Se passar muito tempo para rastrear os duergars, os personagens não terão como saber para onde foram — tanto melhor, dadas as perigos da fortaleza duergar. Uma busca na balsa de Easthaven não revela pistas, pois os duergars levaram todos os seus pertences (incluindo o mapa de Durth) com eles.</p>
             </div>
+
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="318"><span class="entry-title-inner">Development</span></h3>
-                <p>Unless they happen to be inside or near the Town Hall when the duergar arrive, the characters won't know about the theft until word reaches their ears the following day, when Speaker Waylen asks them to find the thieves and return the missing fragments of chardalyn, so that he can lock them up with the other pieces that the thieves left behind. Waylen is willing to pay 50 gp for each stolen fragment that is returned to him. If the characters aren't already aware of the properties of chardalyn, Waylen warns them about the demonic magic suffusing the crystal and urges them not to come in direct contact with any of the fragments.</p>
-                <p>Characters who are determined to find the stolen chardalyn fragments can question Easthaven's townsfolk to see if anyone saw suspicious activity on the night of the robbery. Any character who spends an hour knocking on doors and inquiring about town can make a DC 14 Charisma (@skill[Investigation]) check at the end of that hour. On a failed check, no useful information is obtained. If the check succeeds, the character is urged to speak with Scython, the tiefling ferryman, who spends most of his free time in a tavern called the Wet Trout. Scython is widely regarded as a font of useful information. Although he doesn't know anything about the duergar or the stolen chardalyn, he knows several rumors that might steer the characters in new directions (see "@UUID[.0000000000000007#the-wet-trout]{The Wet Trout}"). Once the characters are 4th level, the adventure steers them toward the duergar fortress in @UUID[JournalEntry.P7d2UEime7l0L2VE.JournalEntryPage.0000000000000013]{chapter 3}, where the stolen chardalyn fragments can be found (see @UUID[.0000000000000013#x24–x26.-forge]{area X26}).</p>
+                <h3 class="rd__h rd__h--2" data-title-index="318"><span class="entry-title-inner">Desenvolvimento</span></h3>
+                <p>A menos que estejam dentro ou perto do Salão da Prefeitura quando os duergars chegarem, os personagens não saberão sobre o roubo até que a notícia chegue aos seus ouvidos no dia seguinte, quando o Conferencista Waylen pede a eles para encontrar os ladrões e devolver os fragmentos de chardalyn faltantes, para que ele possa trancá-los com as outras peças que os ladrões deixaram para trás. Waylen está disposto a pagar 50 gp por cada fragmento roubado que lhe seja devolvido. Se os personagens ainda não estiverem cientes das propriedades do chardalyn, Waylen os alerta sobre a magia demoníaca que permeia o cristal e os insta a não entrar em contato direto com nenhum dos fragmentos.</p>
+                <p>Personagens determinados a encontrar os fragmentos de chardalyn roubados podem questionar os habitantes de Easthaven para ver se alguém viu alguma atividade suspeita na noite do roubo. Qualquer personagem que passar uma hora batendo em portas e perguntando pela cidade pode fazer um teste de Carisma DC 14 (@skill[Investigation]) ao final dessa hora. Em caso de falha no teste, nenhuma informação útil é obtida. Se o teste for bem-sucedido, o personagem é instado a falar com Scython, o barqueiro tiefling, que passa a maior parte do seu tempo livre em uma taverna chamada Truta Molhada. Scython é amplamente considerado uma fonte de informações úteis. Embora ele não saiba nada sobre os duergars ou o chardalyn roubado, ele conhece vários rumores que podem orientar os personagens em novas direções (veja "@UUID[.0000000000000007#the-wet-trout]{Truta Molhada}"). Uma vez que os personagens atingem o 4º nível, a aventura os direciona para a fortaleza dos duergars em @UUID[JournalEntry.P7d2UEime7l0L2VE.JournalEntryPage.0000000000000013]{capítulo 3}, onde os fragmentos de chardalyn roubados podem ser encontrados (veja @UUID[.0000000000000013#x24–x26.-forge]{área X26}).</p>
             </div>
+
         </div>
         <div class="rd__b  rd__b--1">
-            <h2 class="rd__h rd__h--1" data-title-index="319"><span class="entry-title-inner">Easthaven Town Hall (T1-T10)</span></h2>
-            <p>Information about Easthaven's Town Hall is provided here, along with a map. You can use map 1.11 to represent other town halls in Ten-Towns, as needed.</p>
-            <p>Easthaven's Town Hall is a two-story, wattle-and-daub building where townsfolk come to renew licenses, pay fines, settle petty claims, file complaints, and gather to discuss important issues. The flag of Easthaven flutters atop a cupola on the Town Hall's steeply pitched rooftop.</p>
-            <p>All above-ground levels have wooden floors, with framed oil paintings by local artists mounted above the wainscoting. The doors on these levels are made of sturdy wood and have no locks, though the outermost doors can be barred from within. The dungeon level is hewn out of solid rock and has sturdy iron doors throughout. Low-burning lanterns hang from iron brackets or the rafters, dimly lighting all interior locations.</p>
+            <h2 class="rd__h rd__h--1" data-title-index="319"><span class="entry-title-inner">Prefeitura de Easthaven (T1-T10)</span></h2>
+            <p>Aqui são fornecidas informações sobre a Prefeitura de Easthaven, juntamente com um mapa. Você pode usar o mapa 1.11 para representar outras prefeituras em Dez Cidades, conforme necessário.</p>
+            <p>A Prefeitura de Easthaven é um edifício de dois andares, feito de varas e barro, onde os habitantes da cidade vêm para renovar licenças, pagar multas, resolver reclamações pequenas, registrar queixas e se reunir para discutir questões importantes. A bandeira de Easthaven tremula no topo de uma cúpula no telhado íngreme da Prefeitura.</p>
+            <p>Todos os níveis acima do solo têm pisos de madeira, com pinturas a óleo emolduradas por artistas locais montadas acima do lambril. As portas nesses níveis são feitas de madeira resistente e não têm fechaduras, embora as portas mais externas possam ser trancadas por dentro. O nível do calabouço é esculpido em rocha sólida e tem portas de ferro resistentes por todo lado. Lanternas de baixo brilho pendem de suportes de ferro ou das vigas, iluminando fracamente todos os locais internos.</p>
             <div class="rd__wrp-gallery">
                 <div class="float-clear">
                     <p></p>
                 </div>
                 <div class="rd__wrp-gallery-image">
                     <div class="rd__wrp-image relative">
-                        <img class="rd__image" src="https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/IDRotF/055-map-1.11-easthaven-town-hall.webp" title="Map 1.11: Easthaven Town Hall" alt="Map 1.11: Easthaven Town Hall">
+                        <img class="rd__image" src="https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/IDRotF/055-map-1.11-easthaven-town-hall.webp" title="Mapa 1.11: Prefeitura de Easthaven" alt="Mapa 1.11: Prefeitura de Easthaven">
                     </div>
                     <div class="rd__image-title">
                         <div class="rd__image-title-inner">
-                            <p>Map 1.11: Easthaven Town Hall</p>
+                            <p>Mapa 1.11: Prefeitura de Easthaven</p>
                         </div>
                     </div>
                 </div>
@@ -543,168 +549,180 @@
                 </div>
                 <div class="rd__wrp-gallery-image">
                     <div class="rd__wrp-image relative">
-                        <img class="rd__image" src="https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/IDRotF/056-map-1.11-easthaven-town-hall-player.webp" title="Player Version" alt="Player Version">
+                        <img class="rd__image" src="https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/IDRotF/056-map-1.11-easthaven-town-hall-player.webp" title="Versão do Jogador" alt="Versão do Jogador">
                     </div>
                     <div class="rd__image-title">
                         <div class="rd__image-title-inner">
-                            <p>Player Version</p>
+                            <p>Versão do Jogador</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <p>The following locations are keyed to map 1.11.</p>
+            <p>As seguintes localizações estão relacionadas ao mapa 1.11.</p>
+
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="320"><span class="entry-title-inner">T1. Reception Hall</span></h3>
-                <div class="rd__b-special rd__b-inset rd__b-inset--readaloud ">
-                    <p>This chamber is decorated with oil paintings depicting life in Easthaven, including a large painting of the town itself on the north wall. Mounted on the south wall is a five-foot-long, stuffed knucklehead trout. Its wooden plaque bears an engraved copper plate that reads, in Common, "Big Knuck, caught by Easthaven fishers during the summer of 1479 DR."</p>
+                <h3 class="rd__h rd__h--2" data-title-index="320"><span class="entry-title-inner">T1. Hall de Recepção</span></h3>
+                <div class="rd__b-special rd__b-inset rd__b-inset--readaloud">
+                    <p>Esta câmara é decorada com pinturas a óleo retratando a vida em Easthaven, incluindo uma grande pintura da própria cidade na parede norte. Montado na parede sul está uma truta-knucklehead empalhada de cinco pés de comprimento. Sua placa de madeira ostenta uma placa de cobre gravada que diz, em Comum, "Grande Knuck, capturado por pescadores de Easthaven durante o verão de 1479 DR."</p>
                     <div class="float-clear">
                         <p></p>
                     </div>
                 </div>
-                <p>A secret door in the northeast corner is partially concealed behind a tall, slender oil painting of fishing boats on Lac Dinneshere. It pulls open to reveal the speaker's office (area T3) beyond. Any character who searches the wall for secret doors finds it automatically.</p>
+                <p>Uma porta secreta no canto nordeste está parcialmente oculta atrás de uma alta e esbelta pintura a óleo de barcos de pesca no Lac Dinneshere. Ela se abre para revelar o escritório do conferencista (área T3) além. Qualquer personagem que procurar por portas secretas na parede a encontra automaticamente.</p>
             </div>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="321"><span class="entry-title-inner">T2. Administrative Office</span></h3>
-                <p>This room contains rows of desks and filing cabinets. A few overstuffed lounge chairs are set aside for visitors.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="321"><span class="entry-title-inner">T2. Escritório Administrativo</span></h3>
+                <p>Esta sala contém fileiras de mesas e arquivos. Algumas poltronas estofadas estão reservadas para visitantes.</p>
             </div>
-            <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="322"><span class="entry-title-inner">T3. Speaker's Office</span></h3>
+
+            <div class="rd__b rd__b--2">
+                <h3 class="rd__h rd__h--2" data-title-index="322"><span class="entry-title-inner">T3. Sala do Orador</span></h3>
                 <div class="rd__b-special rd__b-inset rd__b-inset--readaloud ">
-                    <p>Tapestries and painted landscapes decorate this room, in the middle of which is a large table surrounded by high-backed wooden chairs.</p>
+                    <p>Tapeçarias e pinturas de paisagens decoram esta sala, no centro da qual há uma grande mesa rodeada por cadeiras altas de madeira.</p>
                     <div class="float-clear">
                         <p></p>
                     </div>
                 </div>
-                <p>The speaker's chair has Easthaven's heraldry worked into its backrest, whereas the other chairs don't.</p>
-                <p>A secret door in the northwest corner is concealed behind a tapestry depicting a snow-capped mountain. It swings open into area T1. Any character who searches the wall for secret doors finds it automatically.</p>
+                <p>A cadeira do orador tem a heráldica de Easthaven trabalhada no espaldar, enquanto as outras cadeiras não.</p>
+                <p>Uma porta secreta no canto noroeste está escondida atrás de uma tapeçaria que representa uma montanha coberta de neve. Ela se abre para a área T1. Qualquer personagem que inspecione a parede em busca de portas secretas a encontrará automaticamente.</p>
             </div>
-            <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="323"><span class="entry-title-inner">T4. Coat Closet</span></h3>
-                <p>This is the speaker's personal coat closet. A full set of @item[Clothing, cold weather|IDRotF|cold weather clothing] is stored in the wooden trunk.</p>
+            <div class="rd__b rd__b--2">
+                <h3 class="rd__h rd__h--2" data-title-index="323"><span class="entry-title-inner">T4. Guarda-roupa</span></h3>
+                <p>Este é o guarda-roupa pessoal do orador. Um conjunto completo de @item[Clothing, cold weather|IDRotF|cold weather clothing] é armazenado no baú de madeira.</p>
             </div>
-            <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="324"><span class="entry-title-inner">T5. Privy</span></h3>
-                <p>This room contains a toilet, a bucket and mop, a simple wash basin, and a towel rack.</p>
+
+            <div class="rd__b rd__b--2">
+                <h3 class="rd__h rd__h--2" data-title-index="324"><span class="entry-title-inner">T5. Latrina</span></h3>
+                <p>Esta sala contém um vaso sanitário, um balde e um esfregão, uma pia simples e um toalheiro.</p>
             </div>
+
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="325"><span class="entry-title-inner">T6. Chardalyn Figurehead</span></h3>
-                <p>Provided the duergar haven't destroyed it, a startling discovery awaits characters in this room:</p>
-                <div class="rd__b-special rd__b-inset rd__b-inset--readaloud ">
-                    <p>Low-burning lanterns cast a gentle glow upon a tall, black object in the center of this room. Although one could easily mistake it for a statue, this object is actually the figurehead of a ship and is carved in the likeness of a winged demon. The demon-shaped figurehead stands eight feet tall. Shards of wood jut out of the demon's back at the points where the figurehead once attached to the hull of a ship.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="325"><span class="entry-title-inner">Figura de Proa de Chardalyn</span></h3>
+                <p>Desde que os duergar não a tenham destruído, uma descoberta surpreendente aguarda os personagens nesta sala:</p>
+                <div class="rd__b-special rd__b-inset rd__b-inset--readaloud">
+                    <p>Lanternas acesas em fogo baixo projetam um brilho suave sobre um objeto alto e preto no centro desta sala. Embora alguém possa facilmente confundi-lo com uma estátua, este objeto é na verdade a figura de proa de um navio e é esculpido à semelhança de um demônio alado. A figura de proa em forma de demônio tem 2,4 metros de altura. Fragmentos de madeira sobressaem das costas do demônio nos pontos onde a figura de proa costumava ser presa ao casco de um navio.</p>
                     <div class="float-clear">
                         <p></p>
                     </div>
                 </div>
-                <p>If the figurehead is intact and the characters participated in Rinaldo's séance (see "@UUID[.0000000000000007#seance]{Séance}"), they see something else as well:</p>
-                <div class="rd__b-special rd__b-inset rd__b-inset--readaloud ">
-                    <p>Lashed to the figurehead with rope is a scrawny woman who is dripping wet. Her long, white hair hangs over her face, obscuring it.</p>
+                <p>Se a figura de proa estiver intacta e os personagens participaram da sessão espírita de Rinaldo (veja "@UUID[.0000000000000007#seance]{Sessão Espírita}"), eles verão algo mais também:</p>
+                <div class="rd__b-special rd__b-inset rd__b-inset--readaloud">
+                    <p>Amarrada à figura de proa com corda está uma mulher magra e encharcada. Seus longos cabelos brancos cobrem o rosto, ocultando-o.</p>
                     <div class="float-clear">
                         <p></p>
                     </div>
                 </div>
-                <p>Other features of the room include a wooden staircase that climbs to a balcony, mounted atop which is a small crane with a manual winch, and a staircase that leads down to the dungeon (see @UUID[.0000000000000007#t16.-stairs-to-the-dungeon]{area T16}).</p>
+                <p>Outros elementos da sala incluem uma escada de madeira que sobe até uma varanda, sobre a qual está montada uma pequena grua com um guincho manual, e uma escada que leva para a masmorra (veja @UUID[.0000000000000007#t16.-stairs-to-the-dungeon]{área T16}).</p>
+
                 <div class="rd__b  rd__b--3">
-                    <p><span class="entry-title-inner">Demonic Figurehead.</span></p>
-                    <p>Characters familiar with chardalyn can tell that the figurehead is made of the substance. Those who succeed on a DC 20 Intelligence (@skill[History]) check realize that the figurehead depicts Errtu, a balor demon that terrorized Icewind Dale over a century ago. Characters who grew up in Icewind Dale have advantage on this check. The figurehead is a Large object with AC 13, a damage threshold of 5, 50 hit points, and immunity to poison and psychic damage. It weighs 1,000 pounds.</p>
+                    <p><span class="entry-title-inner">Figura Demoníaca.</span></p>
+                    <p>Personagens familiarizados com chardalyn podem dizer que a figura é feita dessa substância. Aqueles que obtêm sucesso em um teste de Inteligência DC 20 (@skill[History]) percebem que a figura retrata Errtu, um demônio balor que aterrorizou Icewind Dale mais de um século atrás. Personagens que cresceram em Icewind Dale têm vantagem neste teste. A figura é um objeto Grande com CA 13, um limite de dano de 5, 50 pontos de vida e imunidade a dano de veneno e psíquico. Ela pesa 1.000 libras.</p>
                     <div class="rd__spc-inline-post">
                         <p></p>
                     </div>
-                    <p>A band of adventurers used a @spell[telekinesis] spell to raise the figurehead from the depths of Lac Dinneshere a few months ago and hauled it to Easthaven, hoping for a reward. What they got was hardly worth the effort, and Speaker Waylen doesn't know what else to do with the figurehead except store it here, out of the public eye. He fears the figurehead is tainted by demonic magic and has warned his staff not to touch it. A @spell[detect evil and good] spell or similar magic reveals that it's a desecrated object. Any creature that comes into contact with it must succeed on a DC 13 Charisma saving throw or gain the following flaw, which supersedes any conflicting personality trait: "I suspect most Ten-Towners are members of a secret cult devoted to the Frostmaiden." This paranoia can be ended on a creature by any spell that removes a curse. Prolonged contact with the figurehead might have other ill effects, at your discretion.</p>
+                    <p>Um grupo de aventureiros usou um feitiço @spell[telekinesis] para levantar a figura das profundezas do Lac Dinneshere alguns meses atrás e a levou para Easthaven, esperando por uma recompensa. O que eles conseguiram mal valeu o esforço, e o Orador Waylen não sabe o que mais fazer com a figura a não ser guardá-la aqui, longe dos olhos do público. Ele teme que a figura esteja contaminada por magia demoníaca e advertiu sua equipe para não tocá-la. Um feitiço @spell[detect evil and good] ou magia similar revela que é um objeto profanado. Qualquer criatura que entre em contato com ele deve obter sucesso em uma jogada de salvamento de Carisma DC 13 ou ganhar o seguinte defeito, que substitui qualquer traço de personalidade conflitante: "Suspeito que a maioria dos Dez-Cidadãos são membros de um culto secreto dedicado à Donzela do Gelo." Esta paranoia pode ser encerrada em uma criatura por qualquer feitiço que remova uma maldição. O contato prolongado com a figura pode ter outros efeitos nocivos, a seu critério.</p>
                 </div>
+
                 <div class="rd__b  rd__b--3">
-                    <p><span class="entry-title-inner">White Lady of Lac Dinneshere.</span></p>
-                    <p>What looks like a woman tied to the figurehead is actually the White Lady of Lac Dinneshere, which manifests here as a chaotic evil @creature[ghost]. If the characters keep their distance, the woman begins sobbing. If the characters leave without confronting the woman and return later, the ghost is gone (along with the ropes that seemed to bind it).</p>
+                    <p><span class="entry-title-inner">Dama Branca de Lac Dinneshere.</span></p>
+                    <p>O que parece ser uma mulher amarrada à figura é na verdade a Dama Branca de Lac Dinneshere, que se manifesta aqui como um @creature[ghost] caótico e maligno. Se os personagens mantiverem distância, a mulher começa a soluçar. Se os personagens saírem sem confrontar a mulher e retornarem mais tarde, o fantasma se foi (junto com as cordas que pareciam prendê-lo).</p>
                     <div class="rd__spc-inline-post">
                         <p></p>
                     </div>
-                    <p>The White Lady rarely manifests on land, and her ghost can be seen only by those who dared to summon it (as the characters did when they participated in Rinaldo's séance). If one or more characters come within 5 feet of the ghost, it throws back its head to reveal a bare skull with a rictus grin, catching characters by surprise with its Horrifying Visage. Once the ghost's true nature is revealed, the ropes binding it to the figurehead fade away as it attacks the nearest character. If the ghost is reduced to 20 hit points or fewer, it tries to possess a character on its next turn. A possessed host will attempt to leave the Town Hall by the northern exit and drown itself in Lac Dinneshere by walking out onto the ice until it breaks, attacking anyone who gets in its way.</p>
-                    <p>If the ghost is reduced to 0 hit points, it fades away with a scream as the White Lady's spirit is forced back to the lake, where it remains thereafter.</p>
+                    <p>A Dama Branca raramente se manifesta em terra, e seu fantasma só pode ser visto por aqueles que ousaram invocá-lo (como os personagens fizeram quando participaram da sessão espírita de Rinaldo). Se um ou mais personagens se aproximarem a 5 pés do fantasma, ele joga a cabeça para trás para revelar um crânio nu com um sorriso rígido, pegando os personagens de surpresa com sua Visão Horrível. Uma vez que a verdadeira natureza do fantasma é revelada, as cordas que o prendem à figura desaparecem enquanto ele ataca o personagem mais próximo. Se o fantasma for reduzido a 20 pontos de vida ou menos, ele tenta possuir um personagem no próximo turno. Um hospedeiro possuído tentará sair da Prefeitura pela saída norte e se afogar em Lac Dinneshere, caminhando sobre o gelo até que ele se quebre, atacando qualquer um que se interponha em seu caminho.</p>
+                    <p>Se o fantasma for reduzido a 0 pontos de vida, ele desaparece com um grito enquanto o espírito da Dama Branca é forçado a voltar para o lago, onde permanece a partir de então.</p>
                     <div class="float-clear">
                         <p></p>
                     </div>
                     <div>
                         <div class="rd__wrp-image relative">
-                            <img class="rd__image" src="https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/IDRotF/057-01-028.webp" title="Bound to a demonic figurehead is a haunting figure, but not all is what it seems" alt="Bound to a demonic figurehead is a haunting figure, but not all is what it seems">
+                            <img class="rd__image" src="https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/adventure/IDRotF/057-01-028.webp" title="Amarrada a uma figura demoníaca está uma figura assustadora, mas nem tudo é o que parece" alt="Amarrada a uma figura demoníaca está uma figura assustadora, mas nem tudo é o que parece">
                         </div>
                         <div class="rd__image-title">
                             <div class="rd__image-title-inner">
-                                <p>Bound to a demonic figurehead is a haunting figure, but not all is what it seems</p>
+                                <p>Amarrada a uma figura demoníaca está uma figura assustadora, mas nem tudo é o que parece</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="328"><span class="entry-title-inner">T7. Chair Storage</span></h3>
-                <p>Stacked neatly against the walls of this room are dozens of wooden chairs used for town meetings.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="328"><span class="entry-title-inner">T7. Armazenamento de Cadeiras</span></h3>
+                <p>Empilhadas de forma ordenada contra as paredes desta sala, há dezenas de cadeiras de madeira usadas para reuniões da cidade.</p>
             </div>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="329"><span class="entry-title-inner">T8. Records Room</span></h3>
-                <p>This room contains records for the town, stored in boxes that lean haphazardly against the walls.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="329"><span class="entry-title-inner">T8. Sala de Registros</span></h3>
+                <p>Esta sala contém registros da cidade, armazenados em caixas que se inclinam de maneira desordenada contra as paredes.</p>
             </div>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="330"><span class="entry-title-inner">T9. Event Venue</span></h3>
-                <p>This room is used for parties and other special events. It contains wooden tables and chairs, and colorful streamers hang from the rafters. A curtained window looks down on area T6.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="330"><span class="entry-title-inner">T9. Local do Evento</span></h3>
+                <p>Esta sala é usada para festas e outros eventos especiais. Contém mesas e cadeiras de madeira, e serpentinas coloridas pendem das vigas. Uma janela com cortina olha para baixo na área T6.</p>
             </div>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="331"><span class="entry-title-inner">T10. Small Claims Court</span></h3>
-                <p>Residents of Easthaven come here to settle claims for petty crimes. Rows of wooden chairs face a large, cloth-covered table, behind which the speaker sits while presiding over small claims court cases. Next to this table is a small writing desk for the court clerk.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="331"><span class="entry-title-inner">T10. Tribunal de Pequenas Causas</span></h3>
+                <p>Os residentes de Easthaven vêm aqui para resolver reivindicações por crimes menores. Fileiras de cadeiras de madeira enfrentam uma grande mesa coberta de tecido, atrás da qual o orador se senta enquanto preside os casos do tribunal de pequenas causas. Ao lado desta mesa, há uma pequena escrivaninha para o escrivão do tribunal.</p>
             </div>
+
         </div>
         <div class="rd__b  rd__b--1">
-            <h2 class="rd__h rd__h--1" data-title-index="332"><span class="entry-title-inner">Easthaven Town Hall (T11-T19)</span></h2>
+            <h2 class="rd__h rd__h--1" data-title-index="332"><span class="entry-title-inner">Prefeitura de Easthaven (T11-T19)</span></h2>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="333"><span class="entry-title-inner">T11. Fishing Permits</span></h3>
+                <h3 class="rd__h rd__h--2" data-title-index="333"><span class="entry-title-inner">T11. Permissões de Pesca</span></h3>
                 <div class="rd__b-special rd__b-inset rd__b-inset--readaloud ">
-                    <p>Three desks stand side-by-side in the room, the backs of their chairs facing the outside wall. Pinned to the east wall is a large, hand-drawn map framed with old fishing poles. One of the poles is rigged with a lime green fishing lure carved to resemble a tiny flumph.</p>
+                    <p>Três mesas estão lado a lado na sala, as costas de suas cadeiras voltadas para a parede externa. Preso à parede leste está um grande mapa desenhado à mão emoldurado com varas de pescar antigas. Uma das varas está equipada com uma isca de pesca verde-limão esculpida para se parecer com um pequeno flumph.</p>
                     <div class="float-clear">
                         <p></p>
                     </div>
                 </div>
-                <p>Easthaven fishers come here to apply for and renew their fishing permits. The map on the east wall shows Lac Dinneshere, with boundaries to mark the fishing territories of Easthaven, Caer-Dineval, and Caer-Konig.</p>
+                <p>Os pescadores de Easthaven vêm aqui para solicitar e renovar suas permissões de pesca. O mapa na parede leste mostra Lac Dinneshere, com limites para marcar os territórios de pesca de Easthaven, Caer-Dineval e Caer-Konig.</p>
             </div>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="334"><span class="entry-title-inner">T12. Employee Breakroom</span></h3>
-                <p>This room contains several cozy chairs, a snack cabinet, and a wooden staircase leading up to area T14.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="334"><span class="entry-title-inner">T12. Sala de Descanso dos Funcionários</span></h3>
+                <p>Esta sala contém várias cadeiras aconchegantes, um armário de lanches e uma escada de madeira que leva à área T14.</p>
             </div>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="335"><span class="entry-title-inner">T13. Supply Closet</span></h3>
-                <p>Supplies and provisions are stored on wooden shelves that line the walls of this room.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="335"><span class="entry-title-inner">T13. Armário de Suprimentos</span></h3>
+                <p>Suprimentos e provisões são armazenados em prateleiras de madeira que revestem as paredes desta sala.</p>
             </div>
+
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="336"><span class="entry-title-inner">T14. Town Library</span></h3>
-                <p>Easthaven's meager library contains a mostly unremarkable collection of books stored in dusty bookcases. Other furnishings include padded chairs and footstools. Wooden stairs lead down to area T12.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="336"><span class="entry-title-inner">T14. Biblioteca da Cidade</span></h3>
+                <p>A modesta biblioteca de Easthaven contém uma coleção de livros em sua maioria não notáveis armazenados em estantes empoeiradas. Outros móveis incluem cadeiras estofadas e pufes. Escadas de madeira levam à área T12.</p>
                 <div class="rd__b  rd__b--3">
-                    <p><span class="entry-title-inner">Treasure.</span></p>
-                    <p>Characters who spend at least 10 minutes searching the bookshelves discover a worn book with a red leather cover and yellow pages. The edges of the pages are stained with dry blood. The writing inside suggests the book is nothing more than a poetry anthology. However, it's actually the spellbook of a Red Wizard of Thay named Dzaan. The book's true contents are hidden by an @spell[illusory script] spell that ends 5 days after Dzaan's execution (see "@UUID[.0000000000000007#public-execution]{Public Execution}").</p>
+                    <p><span class="entry-title-inner">Tesouro.</span></p>
+                    <p>Personagens que passam pelo menos 10 minutos procurando nas estantes descobrem um livro desgastado com capa de couro vermelho e páginas amarelas. As bordas das páginas estão manchadas com sangue seco. A escrita dentro sugere que o livro não é nada mais do que uma antologia de poesia. No entanto, é na verdade o livro de feitiços de um Mago Vermelho de Thay chamado Dzaan. O verdadeiro conteúdo do livro está escondido por um feitiço @spell[illusory script] que termina 5 dias após a execução de Dzaan (veja "@UUID[.0000000000000007#public-execution]{Execução Pública}").</p>
                     <div class="rd__spc-inline-post">
                         <p></p>
                     </div>
-                    <p>After the book was confiscated by a member of the town militia, it was brought to the Town Hall, where a clerk saw fit to place it in this library for safe keeping. Casting @spell[dispel magic] on the book ends the @spell[illusory script] spell placed upon it. When the @spell[illusory script] spell ends, the book's true contents are revealed. It contains the following spells: @spell[animate objects], @spell[arcane eye], @spell[arcane lock], @spell[blur], @spell[confusion], @spell[conjure elemental], @spell[detect magic], @spell[disguise self], @spell[fireball], @spell[hallucinatory terrain], @spell[illusory script], @spell[invisibility], @spell[knock], @spell[levitate], @spell[magic missile], @spell[major image], @spell[mirror image], @spell[mislead], @spell[phantasmal force], @spell[phantasmal killer], @spell[seeming], @spell[sending], @spell[silent image], and @spell[slow].</p>
+                    <p>Depois que o livro foi confiscado por um membro da milícia da cidade, ele foi levado para a Prefeitura, onde um funcionário achou adequado colocá-lo nesta biblioteca para guardar. Lançar @spell[dispel magic] no livro termina o feitiço @spell[illusory script] colocado nele. Quando o feitiço @spell[illusory script] termina, o verdadeiro conteúdo do livro é revelado. Ele contém os seguintes feitiços: @spell[animate objects], @spell[arcane eye], @spell[arcane lock], @spell[blur], @spell[confusion], @spell[conjure elemental], @spell[detect magic], @spell[disguise self], @spell[fireball], @spell[hallucinatory terrain], @spell[illusory script], @spell[invisibility], @spell[knock], @spell[levitate], @spell[magic missile], @spell[major image], @spell[mirror image], @spell[mislead], @spell[phantasmal force], @spell[phantasmal killer], @spell[seeming], @spell[sending], @spell[silent image], e @spell[slow].</p>
                 </div>
             </div>
+
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="338"><span class="entry-title-inner">T15. Office and Storage Space</span></h3>
-                <p>Residents of Easthaven can rent out these small rooms for personal storage or office use. Of the six available rooms, only two are currently in use; the rest are empty.</p>
-                <p>The first room in use contains several storage crates and barrels. If the characters investigate further, they discover all these containers are empty.</p>
-                <p>The second room in use has been converted into a cozy office. Two overstuffed chairs and a wooden desk are crammed into the space. Inside the desk's unlocked drawer is a half-finished romance novel titled <em>Lost in Lavender Orbs</em>.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="338"><span class="entry-title-inner">T15. Escritório e Espaço de Armazenamento</span></h3>
+                <p>Os residentes de Easthaven podem alugar essas pequenas salas para armazenamento pessoal ou uso de escritório. Das seis salas disponíveis, apenas duas estão atualmente em uso; o resto está vazio.</p>
+                <p>A primeira sala em uso contém várias caixas de armazenamento e barris. Se os personagens investigarem mais, eles descobrem que todos esses contêineres estão vazios.</p>
+                <p>A segunda sala em uso foi convertida em um escritório aconchegante. Duas cadeiras superestofadas e uma mesa de madeira estão apertadas no espaço. Dentro da gaveta destrancada da mesa, há um romance de amor meio terminado intitulado <em>Perdido em Orbes de Lavanda</em>.</p>
             </div>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="339"><span class="entry-title-inner">T16. Stairs to the Dungeon</span></h3>
-                <p>Stone stairs covered with wooden planks lead down to the dungeon, which is hewn out of solid rock.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="339"><span class="entry-title-inner">T16. Escadas para o Calabouço</span></h3>
+                <p>Escadas de pedra cobertas com tábuas de madeira levam ao calabouço, que é talhado em rocha sólida.</p>
+            </div>
+
+            <div class="rd__b  rd__b--2">
+                <h3 class="rd__h rd__h--2" data-title-index="340"><span class="entry-title-inner">T17. Sala dos Carcereiros</span></h3>
+                <p>A menos que tenham sido chamados para atender a uma perturbação em outro lugar, quatro guardas (@creature[Tribal Warrior||tribal warriors]) sentam-se ao redor de uma mesa de madeira circular, jogando <em>Three-Dragon Ante</em> com um baralho bem desgastado. Personagens que escutam na porta antes de entrar podem ouvir esses soldados reclamando do frio e se perguntando quando será realizada a próxima loteria (veja "@UUID[.0000000000000001#sacrifices-to-auril]{Sacrifícios para Auril}"). Um dos guardas carrega um anel com oito chaves de ferro; essas chaves destrancam as portas das celas na área T18.</p>
             </div>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="340"><span class="entry-title-inner">T17. Jailers' Room</span></h3>
-                <p>Unless they have been called away by a disturbance elsewhere, four guards (@creature[Tribal Warrior||tribal warriors]) sit around a circular wooden table, playing <em>Three-Dragon Ante</em> with a well-worn deck of cards. Characters who listen at the door before entering can hear these soldiers complaining about the cold and wondering when the next lottery will be held (see "@UUID[.0000000000000001#sacrifices-to-auril]{Sacrifices to Auril}"). One of the guards carries a ring of eight iron keys; these keys unlock the cell doors in area T18.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="341"><span class="entry-title-inner">T18. Cadeia</span></h3>
+                <p>Indivíduos presos por crimes em Easthaven são detidos aqui. Cada cela tem uma porta de ferro trancada com uma janela de ferro de 5 polegadas quadradas embutida nela para que os guardas possam espiar a cela sem abrir a porta. Um dos guardas na área T17 carrega as chaves que destrancam todas as portas das celas. As portas são muito resistentes para que os personagens possam forçar a abertura usando apenas a força bruta, mas um personagem com ferramentas de ladrão pode usar uma ação para tentar abrir a fechadura de uma porta pelo lado de fora, fazendo isso com um teste bem-sucedido de Destreza DC 15.</p>
             </div>
             <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="341"><span class="entry-title-inner">T18. Jail</span></h3>
-                <p>Individuals arrested for crimes in Easthaven are detained here. Each cell sports a locked iron door with a 5-inch-square, iron-shuttered window built into it so that guards can peer into the cell without opening the door. One of the guards in area T17 carries the keys that unlock all the cell doors. The doors are too sturdy for the characters to force open using brute strength alone, but a character with thieves' tools can use an action to attempt to pick a door's lock from the outside, doing so with a successful DC 15 Dexterity check.</p>
+                <h3 class="rd__h rd__h--2" data-title-index="342"><span class="entry-title-inner">T19. Sala de Interrogatório</span></h3>
+                <p>Prisioneiros são trazidos aqui quando o Orador Waylen tem em mente interrogá-los. A sala contém uma cadeira de carvalho robusta equipada com algemas de ferro, um esfregão e um balde de madeira.</p>
             </div>
-            <div class="rd__b  rd__b--2">
-                <h3 class="rd__h rd__h--2" data-title-index="342"><span class="entry-title-inner">T19. Interrogation Room</span></h3>
-                <p>Prisoners are brought here when Speaker Waylen has a mind to question them. The room contains a sturdy oak chair fitted with iron manacles, a mop, and a wooden bucket.</p>
-            </div>
+
         </div>
     </div>
 </div>
