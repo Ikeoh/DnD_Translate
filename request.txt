@@ -4,7 +4,9 @@ O código pode conter símbolos @ e [ ] que seguirão sempre o seguinte padrão:
 
 - A chave e o atributo da chave NÃO DEVEM SER TRADUZIDOS;
 - Traduza os demais textos do código html para português brasileiro;
-- Retorne o código traduzido para portugues brasileiro, INDENTADO;
+- Retorne o código traduzido para portugues brasileiro;
+- O código traduzido deve estar dentro de uma caixa de código para facilitar a cópia;
+- Remova a indentação do código;
 
 Em alguns casos, os trecho com o padrão @chave[atributo] estarão entre ( ), caso ocorra, considere as regras da mesma forma;
 
