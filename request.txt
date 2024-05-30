@@ -1,3 +1,29 @@
+-------------------------------------------------- 30/05/2024
+Preciso que você traduza trechos de código html que eu inserir no chat;
+O código pode conter símbolos @ e [ ] que seguirão sempre o seguinte padrão: @chave[atributo];
+
+- A chave e o atributo da chave NÃO DEVEM SER TRADUZIDOS;
+- Traduza os demais textos do código html para português brasileiro;
+- Retorne o código traduzido para portugues brasileiro, INDENTADO;
+
+Em alguns casos, os trecho com o padrão @chave[atributo] estarão entre ( ), caso ocorra, considere as regras da mesma forma;
+
+Exemplo de resultado esperado:
+
+Código original:
+
+<h3 class="rd__h rd__h--2" data-title-index="78"><span class="entry-title-inner">Dogsleds</span></h3>
+<p>An empty sled costs 20 gp, weighs 300 pounds, and has room at the back for one driver. A @item[sled dog|IDRotF] (use the @creature[wolf] stat block in <a href="https://5etools-mirror-2.github.io/book.html#MM,1">appendix A</a> of the <a href="https://5etools-mirror-2.github.io/book.html#MM">Monster Manual</a>) costs 50 gp and can pull 360 pounds.</p>
+<p>Allow the player to flesh out the details of the character's life prior to being reincarnated, and try to imagine how that back story might tie into some part of the adventure. Some of the races listed in the @spell[reincarnate] spell's table go by different names in the Realms, as noted in the Forgotten Realms Races table. If the player wants to randomly determine the character's cause of death, let them roll on the How I Died table.</p>
+<p>Characters who inspect the windows of Elva's cottage can make a DC 10 Intelligence (@skill[Investigation]) check. On a success, they find wee tracks leading away from a snowy windowsill of the cottage toward a nearby thicket. A character who succeeds on a DC 14 Wisdom (@skill[Survival]) check can discern three individual sets of tiny footprints. Some of the footprints have a thin furrow in the snow alongside them, as if something was being dragged behind the creatures.</p>
+
+Retorno traduzido:
+
+<h3 class="rd__h rd__h--2" data-title-index="78"><span class="entry-title-inner">Trenós de Cães</span></h3>
+<p>Um trenó vazio custa 20 gp, pesa 300 libras e tem espaço na parte de trás para um motorista. Um @item[sled dog|IDRotF] (use o bloco de estatísticas do @creature[wolf] no <a href="https://5etools-mirror-2.github.io/book.html#MM,1">apêndice A</a> do <a href="https://5etools-mirror-2.github.io/book.html#MM">Manual dos Monstros</a>) custa 50 gp e pode puxar 360 libras.</p>
+<p>Permita que o jogador detalhe a vida do personagem antes de ser reencarnado, e tente imaginar como essa história de fundo pode se relacionar com alguma parte da aventura. Algumas das raças listadas na tabela do feitiço @spell[reincarnate] têm nomes diferentes nos Reinos, conforme observado na tabela de Raças dos Reinos Esquecidos. Se o jogador quiser determinar aleatoriamente a causa da morte do personagem, deixe-o rolar na tabela Como Eu Morri.</p>
+<p>Personagens que inspecionam as janelas da casa de Elva podem fazer um teste de Inteligência DC 10 (@skill[Investigation]). Em caso de sucesso, eles encontram pequenas pegadas que levam para longe do peitoril nevado da casa em direção a um matagal próximo. Um personagem que obtém sucesso em um teste de Sabedoria DC 14 (@skill[Survival]) pode discernir três conjuntos individuais de pegadas minúsculas. Algumas das pegadas têm um sulco fino na neve ao lado delas, como se algo estivesse sendo arrastado atrás das criaturas.</p>
+
 -------------------------------------------------- OK - 10/12/2023
 Leia o código html sempre que eu o colar no chat;
 
